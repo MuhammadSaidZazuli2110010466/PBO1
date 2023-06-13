@@ -15,7 +15,7 @@ public class MenuUtama {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         konsumen obj = new konsumen();
+        /* konsumen obj = new konsumen();
           obj.setIdIDK("000");
         obj.setNMK("Muhammad Said Zazuli");
         obj.setALMT("Kuala Kapuas");
@@ -33,8 +33,8 @@ public class MenuUtama {
         obj.setSK("Hadir");
         
          System.out.println("\n ID Pelanggan : "+ obj.getIdIDK()+"\n Nama Pelanggan : "+ obj.getNMK()+"\n Alamat : " +obj.GetALMT()+"\n No Telpon : " +obj.GetNOTLPN()+"\n Email : " +obj.getEMAIL()+"\n No KTP : " +obj.getNOKTP()+"\n KTP : " +obj.getKTP()+"\n NPWP : "+obj.getNPWP()+"\n Password : " +obj.getPASSWORD()+"\n No KK : "+obj.getNOKK()+"\n KK : "+obj.getKK()+"\n Slip Gaji : " +obj.getSGAJI()+"\n Pekerjaan : "+obj.getPKJ()+"\n Penghasilan : "+obj.getPGS()+"\n Surat Keterangan : "+obj.getSK());
-
-        
+*/
+     new forms.FormUtama().setVisible(true);   
         
     }
     
