@@ -15,7 +15,9 @@ datasetBayar bayar;
      * Creates new form FormBayar
      */
     public FormBayar() {
-        initComponents();
+       initComponents();
+        this.setLocationRelativeTo(null);
+        bayar = new datasetBayar();
     }
 
     /**
@@ -36,7 +38,7 @@ datasetBayar bayar;
         txtbank = new javax.swing.JTextField();
         txtrek = new javax.swing.JTextField();
         txtjumlah = new javax.swing.JTextField();
-        jsimpan = new javax.swing.JButton();
+        simpan = new javax.swing.JButton();
         txtnomer = new javax.swing.JTextField();
         txtbayar = new javax.swing.JTextField();
 
@@ -59,10 +61,10 @@ datasetBayar bayar;
             }
         });
 
-        jsimpan.setText("SIMPAN ");
-        jsimpan.addActionListener(new java.awt.event.ActionListener() {
+        simpan.setText("SIMPAN ");
+        simpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jsimpanActionPerformed(evt);
+                simpanActionPerformed(evt);
             }
         });
 
@@ -87,7 +89,7 @@ datasetBayar bayar;
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                     .addContainerGap()
-                                    .addComponent(jsimpan))
+                                    .addComponent(simpan))
                                 .addGroup(layout.createSequentialGroup()
                                     .addGap(29, 29, 29)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -135,7 +137,7 @@ datasetBayar bayar;
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(butbayar, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jsimpan)
+                    .addComponent(simpan)
                     .addComponent(txtnomer, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(103, Short.MAX_VALUE))
         );
@@ -154,13 +156,13 @@ datasetBayar bayar;
        
     }//GEN-LAST:event_butbayarActionPerformed
 
-    private void jsimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jsimpanActionPerformed
+    private void simpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_simpanActionPerformed
         // TODO add your handling code here:
         bayar.addBayar(txtbayar.getText());
         bayar.AddNOREK(txtrek.getText());
         bayar.addNMBank(txtbank.getText());
         bayar.addJMLH(txtjumlah.getText());
-    }//GEN-LAST:event_jsimpanActionPerformed
+    }//GEN-LAST:event_simpanActionPerformed
 
     private void txtnomerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnomerActionPerformed
         // TODO add your handling code here:
@@ -208,7 +210,7 @@ datasetBayar bayar;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JButton jsimpan;
+    private javax.swing.JButton simpan;
     private javax.swing.JTextField txtbank;
     private javax.swing.JTextField txtbayar;
     private javax.swing.JTextField txtjumlah;

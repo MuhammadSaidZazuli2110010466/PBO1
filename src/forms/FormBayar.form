@@ -34,7 +34,7 @@
                           <Group type="103" alignment="0" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jsimpan" min="-2" max="-2" attributes="0"/>
+                                  <Component id="simpan" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <EmptySpace min="29" pref="29" max="-2" attributes="0"/>
@@ -99,7 +99,7 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="butbayar" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="jsimpan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="simpan" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtnomer" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="103" max="32767" attributes="0"/>
@@ -147,12 +147,12 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtjumlah">
     </Component>
-    <Component class="javax.swing.JButton" name="jsimpan">
+    <Component class="javax.swing.JButton" name="simpan">
       <Properties>
         <Property name="text" type="java.lang.String" value="SIMPAN "/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jsimpanActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simpanActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtnomer">
