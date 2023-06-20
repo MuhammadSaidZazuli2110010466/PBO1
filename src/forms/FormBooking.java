@@ -4,12 +4,14 @@
  */
 package forms;
 
+import dataset.datasetBooking;
+import javax.swing.JOptionPane;
 /**
  *
  * @author USER
  */
 public class FormBooking extends javax.swing.JFrame {
-
+datasetBooking booking;
     /**
      * Creates new form FormBooking
      */
@@ -129,6 +131,11 @@ public class FormBooking extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        booking.addIDBK(txtno.getText());
+        booking.addIDK(txtnama.getText());
+        booking.addTanggal(txttgl.getText());
+        booking.addStatus(txtstatus.getText());
+        booking.addVerif(txtverif.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void txttglActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttglActionPerformed

@@ -27,7 +27,7 @@ public class datasetDetail {
         this.idbk.add(value);
     }
     
-    public ArrayList<String> getDataNAMAADMIN(){
+    public ArrayList<String> getDataIDBK(){
         return this.idbk;
     }
      public void addTipe(String value){
@@ -37,7 +37,7 @@ public class datasetDetail {
     public ArrayList<String> getDataTipe(){
         return this.tipe;
     }
-     public void addNAMAADMIN(String value){
+     public void addJumlah(String value){
         this.jumlah.add(value);
     }
     

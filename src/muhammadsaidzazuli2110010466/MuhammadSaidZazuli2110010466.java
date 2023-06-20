@@ -8,7 +8,7 @@ package muhammadsaidzazuli2110010466;
  *
  * @author USER
  */
-public class MenuUtama {
+public class MuhammadSaidZazuli2110010466 {
 
     /**
      * @param args the command line arguments

@@ -6,7 +6,7 @@ package muhammadsaidzazuli2110010466;
 
 /**
  *
- * @author SAID
+ * @author USER
  */
 public class bayar {
     

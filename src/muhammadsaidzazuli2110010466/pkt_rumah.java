@@ -8,6 +8,6 @@ package muhammadsaidzazuli2110010466;
  *
  * @author USER
  */
-public class booking {
+public class pkt_rumah {
     
 }
